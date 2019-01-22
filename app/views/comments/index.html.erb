@@ -1,0 +1,16 @@
+<h1>ひとことメモ</h1>
+
+<%= render 'form', comment: @comment %>
+<table>
+  <% index = 1%>
+  <% @comments.each do |comment| %>
+    <tr>
+      <td><%= index %>:</td>
+      <% index += 1%>
+      <td><%= comment.created_at.strftime("[%m/%d %H:%M]") %></td>
+      <td><%= comment.comment %></td>
+      <td><%= link_to '編集', edit_comment_path(comment) %></td>
+      <td><%= link_to '削除', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>
