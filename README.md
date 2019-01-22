@@ -4,7 +4,7 @@
 
 - これは~~学校のPHPの課題をやりたくない~~自主制作railsの練習です
 - 移植です
-<strong style="font-size: 100px; color: #2b2301;">移植です</strong>
+<strong style="font-size: 100px;">移植です</strong>
 ---
 ## 所管
 
