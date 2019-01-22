@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 説明
 
-Things you may want to cover:
+- これは~~学校のPHPの課題をやりたくない~~自主制作railsの練習です
+- 移植です
+<td><strong style="font-size: 100px; color: #2b2301;">移植です</strong></td>
+---
+## 所管
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+~~- 久しぶりに触ってなかったので全く覚えていなかった~~  
+~~- 昔から感じていた不気味な感じは冪等性のnasaから来るかもしれない~~  
+  ~~- 同じ関数読んでいるのに表示が勝手に解釈されて変わったり~~
